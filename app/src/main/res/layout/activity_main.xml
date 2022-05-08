@@ -8,12 +8,25 @@
 
     <Button
         android:id="@+id/btnbmi"
-        android:layout_width="101dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="280dp"
+        android:layout_width="138dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="164dp"
         android:text="calculate bmi"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnmoney"
+        android:layout_width="148dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="268dp"
+        android:text="Send Money"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

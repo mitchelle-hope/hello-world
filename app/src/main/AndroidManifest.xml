@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Misho">
         <activity
+            android:name=".SendMoney"
+            android:exported="false" />
+        <activity
+            android:name=".Savemoney"
+            android:exported="false" />
+        <activity
             android:name=".bmicalculatoractivity"
             android:exported="false" />
         <activity
